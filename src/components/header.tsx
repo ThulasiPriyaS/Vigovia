@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import './header.css';
 import vigoviaLogo from '../assets/Logo.png';
+import { useNavigate } from 'react-router-dom';
 
 const navItems = [
   { label: 'Instant Visa', options: ['Tourist', 'Business', 'Student'] },
@@ -30,6 +31,7 @@ export default function VigoviaHeader() {
   const [langOpen, setLangOpen] = useState(false);
   const [darkMode, setDarkMode] = useState(false);
   const isLoggedIn = false; // Placeholder for login state
+  const navigate = useNavigate();
 
   useEffect(() => {
     if (darkMode) {
@@ -90,6 +92,9 @@ export default function VigoviaHeader() {
           </button>
           <button className="unflash-btn">{isLoggedIn ? 'Unflash' : 'User'}</button>
           <button className="login-btn">Login / Sign Up</button>
+          <button style={{ marginLeft: 12, background: '#541c9c', color: 'white', border: 'none', borderRadius: 6, padding: '8px 18px', fontWeight: 600, cursor: 'pointer' }} onClick={() => navigate('/itinerary-generator')}>
+            Itinerary PDF Generator
+          </button>
         </div>
       </div>
     </header>

@@ -572,10 +572,10 @@ const HeroPage = () => {
                   style={{
                     background: infoTab === 'important' ? '#541c9c' : 'white',
                     color: infoTab === 'important' ? 'white' : '#000',
-                    padding: '10px 24px',
-                    borderRadius: '50px',
-                    fontWeight: 600,
-                    cursor: 'pointer',
+                  padding: '10px 24px',
+                  borderRadius: '50px',
+                  fontWeight: 600,
+                  cursor: 'pointer',
                     fontSize: '0.9rem',
                     border: infoTab === 'important' ? 'none' : '1px solid #541c9c',
                   }}
@@ -587,10 +587,10 @@ const HeroPage = () => {
                   style={{
                     background: infoTab === 'documents' ? '#541c9c' : 'white',
                     color: infoTab === 'documents' ? 'white' : '#000',
-                    padding: '10px 24px',
-                    borderRadius: '50px',
-                    fontWeight: 600,
-                    cursor: 'pointer',
+                  padding: '10px 24px',
+                  borderRadius: '50px',
+                  fontWeight: 600,
+                  cursor: 'pointer',
                     fontSize: '0.9rem',
                     border: infoTab === 'documents' ? 'none' : '1px solid #541c9c',
                   }}
@@ -602,10 +602,10 @@ const HeroPage = () => {
                   style={{
                     background: infoTab === 'airline' ? '#541c9c' : 'white',
                     color: infoTab === 'airline' ? 'white' : '#000',
-                    padding: '10px 24px',
-                    borderRadius: '50px',
-                    fontWeight: 600,
-                    cursor: 'pointer',
+                  padding: '10px 24px',
+                  borderRadius: '50px',
+                  fontWeight: 600,
+                  cursor: 'pointer',
                     fontSize: '0.9rem',
                     border: infoTab === 'airline' ? 'none' : '1px solid #541c9c',
                   }}
@@ -617,94 +617,94 @@ const HeroPage = () => {
               
               {/* Content Box */}
               {infoTab === 'important' && (
-                <div style={{ 
-                  background: 'white',
-                  borderRadius: '12px',
-                  padding: '24px',
-                  border: '1px solid #e5e7eb',
-                  boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
-                }}>
-                  {/* Visa Validity Period */}
-                  <div style={{ marginBottom: '20px' }}>
-                    <h3 style={{ 
-                      fontSize: '1rem', 
-                      fontWeight: 600, 
-                      color: '#000', 
-                      margin: '0 0 12px 0',
-                      textAlign: 'left'
-                    }}>
-                      Visa Validity Period
-                    </h3>
-                    <ul style={{ margin: 0, paddingLeft: '24px', textAlign: 'left' }}>
-                      <li style={{ marginBottom: '4px', color: '#000' }}>
-                        How long the visa is valid from the date of issue
-                      </li>
-                      <li style={{ marginBottom: '4px', color: '#000' }}>
-                        The difference between single-entry double-entry and multiple-entry visas
-                      </li>
-                    </ul>
-                  </div>
-                  {/* Duration of Stay */}
-                  <div style={{ marginBottom: '20px' }}>
-                    <h3 style={{ 
-                      fontSize: '1rem', 
-                      fontWeight: 600, 
-                      color: '#000', 
-                      margin: '0 0 12px 0',
-                      textAlign: 'left'
-                    }}>
-                      Duration of Stay
-                    </h3>
-                    <ul style={{ margin: 0, paddingLeft: '24px', textAlign: 'left' }}>
-                      <li style={{ marginBottom: '4px', color: '#000' }}>
-                        Maximum length of stay per visit (e.g. 90 days within a 180-day period for some visas).
-                      </li>
-                      <li style={{ marginBottom: '4px', color: '#000' }}>
-                        Rules for short stays long stays and temporary residence visas
-                      </li>
-                    </ul>
-                  </div>
-                  {/* Permitted Activities */}
-                  <div style={{ marginBottom: '20px' }}>
-                    <h3 style={{ 
-                      fontSize: '1rem', 
-                      fontWeight: 600, 
-                      color: '#000', 
-                      margin: '0 0 12px 0',
-                      textAlign: 'left'
-                    }}>
-                      Permitted Activities
-                    </h3>
-                    <ul style={{ margin: 0, paddingLeft: '24px', textAlign: 'left' }}>
-                      <li style={{ marginBottom: '4px', color: '#000' }}>
-                        What activities are allowed under the visa (e.g. work study tourism).
-                      </li>
-                      <li style={{ marginBottom: '4px', color: '#000' }}>
-                        Restrictions on working on tourist or student visas
-                      </li>
-                    </ul>
-                  </div>
-                  {/* Entry Ban or Restrictions */}
-                  <div>
-                    <h3 style={{ 
-                      fontSize: '1rem', 
-                      fontWeight: 600, 
-                      color: '#000', 
-                      margin: '0 0 12px 0',
-                      textAlign: 'left'
-                    }}>
-                      Entry Ban or Restrictions
-                    </h3>
-                    <ul style={{ margin: 0, paddingLeft: '24px', textAlign: 'left' }}>
-                      <li style={{ marginBottom: '4px', color: '#000' }}>
-                        Certain nationalities or individuals may face restrictions, including travel bans or limited stay periods.
-                      </li>
-                      <li style={{ marginBottom: '4px', color: '#000' }}>
-                        Conditions for transit visas and whether they allow temporary entry into the country.
-                      </li>
-                    </ul>
-                  </div>
+              <div style={{ 
+                background: 'white',
+                borderRadius: '12px',
+                padding: '24px',
+                border: '1px solid #e5e7eb',
+                boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
+              }}>
+                {/* Visa Validity Period */}
+                <div style={{ marginBottom: '20px' }}>
+                  <h3 style={{ 
+                    fontSize: '1rem', 
+                    fontWeight: 600, 
+                    color: '#000', 
+                    margin: '0 0 12px 0',
+                    textAlign: 'left'
+                  }}>
+                    Visa Validity Period
+                  </h3>
+                  <ul style={{ margin: 0, paddingLeft: '24px', textAlign: 'left' }}>
+                    <li style={{ marginBottom: '4px', color: '#000' }}>
+                      How long the visa is valid from the date of issue
+                    </li>
+                    <li style={{ marginBottom: '4px', color: '#000' }}>
+                      The difference between single-entry double-entry and multiple-entry visas
+                    </li>
+                  </ul>
                 </div>
+                {/* Duration of Stay */}
+                <div style={{ marginBottom: '20px' }}>
+                  <h3 style={{ 
+                    fontSize: '1rem', 
+                    fontWeight: 600, 
+                    color: '#000', 
+                    margin: '0 0 12px 0',
+                    textAlign: 'left'
+                  }}>
+                    Duration of Stay
+                  </h3>
+                  <ul style={{ margin: 0, paddingLeft: '24px', textAlign: 'left' }}>
+                    <li style={{ marginBottom: '4px', color: '#000' }}>
+                      Maximum length of stay per visit (e.g. 90 days within a 180-day period for some visas).
+                    </li>
+                    <li style={{ marginBottom: '4px', color: '#000' }}>
+                      Rules for short stays long stays and temporary residence visas
+                    </li>
+                  </ul>
+                </div>
+                {/* Permitted Activities */}
+                <div style={{ marginBottom: '20px' }}>
+                  <h3 style={{ 
+                    fontSize: '1rem', 
+                    fontWeight: 600, 
+                    color: '#000', 
+                    margin: '0 0 12px 0',
+                    textAlign: 'left'
+                  }}>
+                    Permitted Activities
+                  </h3>
+                  <ul style={{ margin: 0, paddingLeft: '24px', textAlign: 'left' }}>
+                    <li style={{ marginBottom: '4px', color: '#000' }}>
+                      What activities are allowed under the visa (e.g. work study tourism).
+                    </li>
+                    <li style={{ marginBottom: '4px', color: '#000' }}>
+                      Restrictions on working on tourist or student visas
+                    </li>
+                  </ul>
+                </div>
+                {/* Entry Ban or Restrictions */}
+                <div>
+                  <h3 style={{ 
+                    fontSize: '1rem', 
+                    fontWeight: 600, 
+                    color: '#000', 
+                    margin: '0 0 12px 0',
+                    textAlign: 'left'
+                  }}>
+                    Entry Ban or Restrictions
+                  </h3>
+                  <ul style={{ margin: 0, paddingLeft: '24px', textAlign: 'left' }}>
+                    <li style={{ marginBottom: '4px', color: '#000' }}>
+                      Certain nationalities or individuals may face restrictions, including travel bans or limited stay periods.
+                    </li>
+                    <li style={{ marginBottom: '4px', color: '#000' }}>
+                      Conditions for transit visas and whether they allow temporary entry into the country.
+                    </li>
+                  </ul>
+                </div>
+              </div>
               )}
               {infoTab === 'documents' && (
                 <div style={{ 
@@ -1186,23 +1186,23 @@ const HeroPage = () => {
               }}>
                 {['Spring', 'Summer', 'Autumn', 'Winter'].map((season) => (
                   <div key={season} style={{ 
-                    background: 'white',
-                    borderRadius: '16px',
-                    padding: '32px 24px',
-                    boxShadow: '0 4px 20px rgba(0,0,0,0.1)',
+                  background: 'white',
+                  borderRadius: '16px',
+                  padding: '32px 24px',
+                  boxShadow: '0 4px 20px rgba(0,0,0,0.1)',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: 'center',
+                  gap: '20px',
+                  border: '1px solid #f0f0f0'
+                }}>
+                  <div style={{
+                    width: '80px',
+                    height: '80px',
+                    borderRadius: '50%',
+                    background: '#541c9c',
                     display: 'flex',
-                    flexDirection: 'column',
                     alignItems: 'center',
-                    gap: '20px',
-                    border: '1px solid #f0f0f0'
-                  }}>
-                    <div style={{
-                      width: '80px',
-                      height: '80px',
-                      borderRadius: '50%',
-                      background: '#541c9c',
-                      display: 'flex',
-                      alignItems: 'center',
                       justifyContent: 'center',
                       overflow: 'hidden'
                     }}>
@@ -1218,25 +1218,25 @@ const HeroPage = () => {
                       {season === 'Winter' && (
                         <img src={winterIcon} alt="Winter Icon" style={{ width: 40, height: 40, borderRadius: '50%' }} />
                       )}
-                    </div>
-                    <h3 style={{
-                      color: '#666',
-                      fontSize: '1.1rem',
-                      fontWeight: 600,
-                      textAlign: 'center',
-                      margin: 0,
-                      textTransform: 'uppercase',
-                      letterSpacing: '1px'
-                    }}>
+                  </div>
+                  <h3 style={{
+                    color: '#666',
+                    fontSize: '1.1rem',
+                    fontWeight: 600,
+                    textAlign: 'center',
+                    margin: 0,
+                    textTransform: 'uppercase',
+                    letterSpacing: '1px'
+                  }}>
                       {season}
-                    </h3>
-                    <button 
+                  </h3>
+                  <button 
                       className="mt-4 px-4 py-2 bg-gradient-to-r from-green-400 to-blue-500 text-white font-semibold rounded-lg shadow hover:from-green-500 hover:to-blue-600 transition"
                       onClick={() => setShowSeasonModal({open: true, season})}
                     >
-                      Read More
-                    </button>
-                  </div>
+                    Read More
+                  </button>
+                </div>
                 ))}
               </div>
             </div>
@@ -1256,8 +1256,8 @@ const HeroPage = () => {
                     boxShadow: '0 1px 4px rgba(0,0,0,0.06)',
                     color: '#541c9c',
                     fontSize: 22,
-                    display: 'flex',
-                    alignItems: 'center',
+                  display: 'flex',
+                  alignItems: 'center',
                     justifyContent: 'center',
                     cursor: 'pointer',
                     outline: 'none',
@@ -1277,7 +1277,7 @@ const HeroPage = () => {
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
-                    cursor: 'pointer',
+                      cursor: 'pointer',
                     outline: 'none',
                     transition: 'background 0.2s'
                   }} aria-label="Next">
@@ -1285,7 +1285,7 @@ const HeroPage = () => {
                   </button>
                 </div>
               </div>
-              <div style={{ 
+                <div style={{ 
                 display: 'grid',
                 gridTemplateColumns: 'repeat(4, 1fr)',
                 gap: '24px',
@@ -1293,31 +1293,31 @@ const HeroPage = () => {
               }}>
                 {['Spring', 'Summer', 'Autumn', 'Winter'].map((season) => (
                   <div key={season} style={{ 
-                    background: 'white',
-                    borderRadius: '16px',
+                  background: 'white',
+                  borderRadius: '16px',
                     padding: '0',
-                    boxShadow: '0 4px 20px rgba(0,0,0,0.1)',
-                    display: 'flex',
-                    flexDirection: 'column',
+                  boxShadow: '0 4px 20px rgba(0,0,0,0.1)',
+                  display: 'flex',
+                  flexDirection: 'column',
                     alignItems: 'stretch',
                     border: '1px solid #f0f0f0',
                     height: '420px',
                     overflow: 'hidden'
                   }}>
                     {/* Upper part: gray background */}
-                    <div style={{
+                  <div style={{
                       background: '#f3f3f3',
                       height: '58%',
                       minHeight: 140,
                       width: '100%'
                     }} />
                     {/* Lower part: blog content */}
-                    <div style={{
+                <div style={{ 
                       flex: 1,
-                      background: 'white',
+                  background: 'white',
                       padding: '24px 20px 20px 20px',
-                      display: 'flex',
-                      flexDirection: 'column',
+                  display: 'flex',
+                  flexDirection: 'column',
                       justifyContent: 'space-between',
                       height: '42%'
                     }}>
@@ -1330,29 +1330,29 @@ const HeroPage = () => {
                           <svg width="18" height="18" fill="none" stroke="#888" strokeWidth="2" viewBox="0 0 24 24" style={{marginRight: 4}}><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2Z"/></svg>
                           Comments (05)
                         </span>
-                      </div>
+                  </div>
                       <div>
                         <h3 style={{ color: '#351c5c', fontWeight: 600, fontSize: 18, margin: '8px 0 6px 0', lineHeight: 1.2 }}>
                           Journeys of Discovery Uncovering Hidden Treasures
-                        </h3>
+                  </h3>
                         <div style={{ color: '#888', fontWeight: 400, fontSize: 15, marginBottom: 18, lineHeight: 1.4 }}>
                           "Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis  viverra..."
                         </div>
                         <button style={{
                           background: '#351c5c',
-                          color: 'white',
-                          fontWeight: 600,
+                      color: 'white',
+                      fontWeight: 600,
                           fontSize: 20,
                           border: 'none',
                           borderRadius: 999,
                           padding: '12px 40px',
                           marginTop: 12,
-                          cursor: 'pointer',
+                      cursor: 'pointer',
                           boxShadow: '0 2px 8px rgba(80,40,120,0.08)'
                         }}>
                           View
-                        </button>
-                      </div>
+                  </button>
+                </div>
                     </div>
                   </div>
                 ))}
@@ -1375,16 +1375,16 @@ const HeroPage = () => {
                     {showSeasonalModal && selectedSeason && (
                       <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
                         <div className="relative bg-white border-4 border-purple-700 rounded-2xl shadow-xl max-w-lg w-full p-8 flex flex-col items-center">
-                          <button
+                                        <button 
                             className="absolute top-4 right-4 text-2xl text-purple-700 hover:text-purple-900"
-                            onClick={() => setShowSeasonalModal(false)}
+                                            onClick={() => setShowSeasonalModal(false)}
                             aria-label="Close"
-                          >
-                            ×
-                          </button>
+                                        >
+                                            ×
+                                        </button>
                           <div className="w-20 h-20 rounded-full bg-purple-700 flex items-center justify-center -mt-16 mb-4 shadow-lg">
                             {seasonalData[selectedSeason as SeasonKey].icon}
-                          </div>
+                                    </div>
                           <h2 className="text-xl font-bold mb-4 text-purple-700 uppercase tracking-wider">
                             {seasonalData[selectedSeason as SeasonKey].title}
                           </h2>
@@ -1394,10 +1394,10 @@ const HeroPage = () => {
                               <ul className="text-sm text-gray-700">
                                 {section.items.map((item, i) => (
                                   <li key={i}>{item}</li>
-                                ))}
-                              </ul>
-                            </div>
-                          ))}
+                                                    ))}
+                                                </ul>
+                                            </div>
+                                        ))}
                           {/* README Button */}
                           <button
                             className="mt-4 px-4 py-2 bg-purple-700 text-white rounded hover:bg-purple-800 transition"
@@ -1405,8 +1405,8 @@ const HeroPage = () => {
                           >
                             README
                           </button>
-                        </div>
-                      </div>
+                                    </div>
+                                </div>
                     )}
                     {/* README Modal (overlaid) */}
                     {showReadmeModal && selectedSeason && (
@@ -1443,382 +1443,382 @@ const HeroPage = () => {
                             <li>Point 2 about {seasonalData[selectedSeason as SeasonKey].title}</li>
                             <li>Etc.</li>
                           </ul>
+                            </div>
                         </div>
-                      </div>
                     )}
 
                     {/* Booking Form Modal */}
                     {showBookingForm && (
                         <>
-                            <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-[9999] p-4">
-                                <div className="bg-white rounded-2xl shadow-xl max-w-2xl w-full max-h-[90vh] overflow-y-auto">
-                                    <div className="p-8">
-                                        {/* Success Message */}
-                                        {bookingSubmitted ? (
-                                            <div className="text-center py-12">
-                                                <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-green-400 to-green-500 rounded-full mb-6">
-                                                    <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                    </svg>
-                                                </div>
-                                                <h3 className="text-2xl font-bold text-gray-900 mb-4">Thank You!</h3>
-                                                <p className="text-gray-600 mb-4">Your booking request has been submitted. We will contact you within 24 hours to confirm your appointment.</p>
-                                                <p className="text-gray-700 font-medium mb-8">Great courage from your side for taking this step!</p>
+                        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-[9999] p-4">
+                            <div className="bg-white rounded-2xl shadow-xl max-w-2xl w-full max-h-[90vh] overflow-y-auto">
+                                <div className="p-8">
+                                    {/* Success Message */}
+                                    {bookingSubmitted ? (
+                                        <div className="text-center py-12">
+                                            <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-green-400 to-green-500 rounded-full mb-6">
+                                                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                                                </svg>
+                                            </div>
+                                            <h3 className="text-2xl font-bold text-gray-900 mb-4">Thank You!</h3>
+                                            <p className="text-gray-600 mb-4">Your booking request has been submitted. We will contact you within 24 hours to confirm your appointment.</p>
+                                            <p className="text-gray-700 font-medium mb-8">Great courage from your side for taking this step!</p>
+                                            <button 
+                                                onClick={() => {
+                                                    setShowBookingForm(false);
+                                                    setBookingSubmitted(false);
+                                                    setBookingStep(1);
+                                                    setBookingData({
+                                                        sessionType: '',
+                                                        preferredDay: '',
+                                                        preferredTime: '',
+                                                        urgency: '',
+                                                        previousTherapy: '',
+                                                        goals: '',
+                                                        name: '',
+                                                        email: '',
+                                                        phone: ''
+                                                    });
+                                                }}
+                                                className="px-6 py-3 bg-black text-white font-semibold rounded-lg hover:bg-gray-800 transition-all duration-300"
+                                            >
+                                                Close
+                                            </button>
+                                        </div>
+                                    ) : (
+                                        <>
+                                            {/* Header */}
+                                            <div className="flex justify-between items-center mb-8">
+                                                <h2 className="text-3xl font-bold text-gray-900">Book Your Session</h2>
                                                 <button 
-                                                    onClick={() => {
-                                                        setShowBookingForm(false);
-                                                        setBookingSubmitted(false);
-                                                        setBookingStep(1);
-                                                        setBookingData({
-                                                            sessionType: '',
-                                                            preferredDay: '',
-                                                            preferredTime: '',
-                                                            urgency: '',
-                                                            previousTherapy: '',
-                                                            goals: '',
-                                                            name: '',
-                                                            email: '',
-                                                            phone: ''
-                                                        });
-                                                    }}
-                                                    className="px-6 py-3 bg-black text-white font-semibold rounded-lg hover:bg-gray-800 transition-all duration-300"
+                                                    onClick={() => setShowBookingForm(false)}
+                                                    className="text-gray-400 hover:text-gray-600 transition-colors"
                                                 >
-                                                    Close
+                                                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                                                    </svg>
                                                 </button>
                                             </div>
-                                        ) : (
-                                            <>
-                                                {/* Header */}
-                                                <div className="flex justify-between items-center mb-8">
-                                                    <h2 className="text-3xl font-bold text-gray-900">Book Your Session</h2>
-                                                    <button 
-                                                        onClick={() => setShowBookingForm(false)}
-                                                        className="text-gray-400 hover:text-gray-600 transition-colors"
-                                                    >
-                                                        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                                                        </svg>
-                                                    </button>
+
+                                            {/* Progress Bar */}
+                                            <div className="mb-8">
+                                                <div className="flex justify-between mb-2">
+                                                    <span className="text-sm font-medium text-gray-600">Step {bookingStep} of 3</span>
+                                                    <span className="text-sm font-medium text-gray-600">{Math.round((bookingStep / 3) * 100)}%</span>
                                                 </div>
-
-                                                {/* Progress Bar */}
-                                                <div className="mb-8">
-                                                    <div className="flex justify-between mb-2">
-                                                        <span className="text-sm font-medium text-gray-600">Step {bookingStep} of 3</span>
-                                                        <span className="text-sm font-medium text-gray-600">{Math.round((bookingStep / 3) * 100)}%</span>
-                                                    </div>
-                                                    <div className="w-full bg-gray-200 rounded-full h-2">
-                                                        <div 
-                                                            className="bg-black h-2 rounded-full transition-all duration-300" 
-                                                            style={{ width: `${(bookingStep / 3) * 100}%` }}
-                                                        ></div>
-                                                    </div>
+                                                <div className="w-full bg-gray-200 rounded-full h-2">
+                                                    <div 
+                                                        className="bg-black h-2 rounded-full transition-all duration-300" 
+                                                        style={{ width: `${(bookingStep / 3) * 100}%` }}
+                                                    ></div>
                                                 </div>
+                                            </div>
 
-                                                <form onSubmit={handleBookingSubmit}>
-                                                    {/* Step 1: Session Type and Preferences */}
-                                                    {bookingStep === 1 && (
-                                                        <div className="space-y-6">
-                                                            <h3 className="text-xl font-semibold text-gray-900 mb-4">Session Preferences</h3>
-                                                            
-                                                            <div>
-                                                                <label className="block text-sm font-semibold text-gray-700 mb-3">
-                                                                    What type of session are you interested in? *
+                                            <form onSubmit={handleBookingSubmit}>
+                                                {/* Step 1: Session Type and Preferences */}
+                                                {bookingStep === 1 && (
+                                                    <div className="space-y-6">
+                                                        <h3 className="text-xl font-semibold text-gray-900 mb-4">Session Preferences</h3>
+                                                        
+                                                        <div>
+                                                            <label className="block text-sm font-semibold text-gray-700 mb-3">
+                                                                What type of session are you interested in? *
+                                                            </label>
+                                                            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                                                                <label className={`flex items-center p-4 border rounded-lg cursor-pointer transition-colors ${
+                                                                    bookingErrors.sessionType ? 'border-red-300 bg-red-50' : 'border-gray-300 hover:border-black'
+                                                                }`}>
+                                                                    <input
+                                                                        type="radio"
+                                                                        name="sessionType"
+                                                                        value="individual"
+                                                                        checked={bookingData.sessionType === 'individual'}
+                                                                        onChange={(e) => {
+                                                                            setBookingData({...bookingData, sessionType: e.target.value});
+                                                                            if (bookingErrors.sessionType) {
+                                                                                setBookingErrors({...bookingErrors, sessionType: ''});
+                                                                            }
+                                                                        }}
+                                                                        className="mr-3"
+                                                                    />
+                                                                    <div>
+                                                                        <div className="font-medium text-gray-900">Individual Session</div>
+                                                                        <div className="text-sm text-gray-600">One-on-one therapy</div>
+                                                                    </div>
                                                                 </label>
-                                                                <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                                                                    <label className={`flex items-center p-4 border rounded-lg cursor-pointer transition-colors ${
-                                                                        bookingErrors.sessionType ? 'border-red-300 bg-red-50' : 'border-gray-300 hover:border-black'
-                                                                    }`}>
-                                                                        <input
-                                                                            type="radio"
-                                                                            name="sessionType"
-                                                                            value="individual"
-                                                                            checked={bookingData.sessionType === 'individual'}
-                                                                            onChange={(e) => {
-                                                                                setBookingData({...bookingData, sessionType: e.target.value});
-                                                                                if (bookingErrors.sessionType) {
-                                                                                    setBookingErrors({...bookingErrors, sessionType: ''});
-                                                                                }
-                                                                            }}
-                                                                            className="mr-3"
-                                                                        />
-                                                                        <div>
-                                                                            <div className="font-medium text-gray-900">Individual Session</div>
-                                                                            <div className="text-sm text-gray-600">One-on-one therapy</div>
-                                                                        </div>
-                                                                    </label>
-                                                                    <label className={`flex items-center p-4 border rounded-lg cursor-pointer transition-colors ${
-                                                                        bookingErrors.sessionType ? 'border-red-300 bg-red-50' : 'border-gray-300 hover:border-black'
-                                                                    }`}>
-                                                                        <input
-                                                                            type="radio"
-                                                                            name="sessionType"
-                                                                            value="couples"
-                                                                            checked={bookingData.sessionType === 'couples'}
-                                                                            onChange={(e) => {
-                                                                                setBookingData({...bookingData, sessionType: e.target.value});
-                                                                                if (bookingErrors.sessionType) {
-                                                                                    setBookingErrors({...bookingErrors, sessionType: ''});
-                                                                                }
-                                                                            }}
-                                                                            className="mr-3"
-                                                                        />
-                                                                        <div>
-                                                                            <div className="font-medium text-gray-900">Couples Session</div>
-                                                                            <div className="text-sm text-gray-600">Relationship therapy</div>
-                                                                        </div>
-                                                                    </label>
-                                                                </div>
-                                                                {bookingErrors.sessionType && (
-                                                                    <p className="mt-2 text-sm text-red-600">{bookingErrors.sessionType}</p>
-                                                                )}
-                                                            </div>
-
-                                                            <div>
-                                                                <label className="block text-sm font-semibold text-gray-700 mb-3">
-                                                                    Preferred day of the week *
+                                                                <label className={`flex items-center p-4 border rounded-lg cursor-pointer transition-colors ${
+                                                                    bookingErrors.sessionType ? 'border-red-300 bg-red-50' : 'border-gray-300 hover:border-black'
+                                                                }`}>
+                                                                    <input
+                                                                        type="radio"
+                                                                        name="sessionType"
+                                                                        value="couples"
+                                                                        checked={bookingData.sessionType === 'couples'}
+                                                                        onChange={(e) => {
+                                                                            setBookingData({...bookingData, sessionType: e.target.value});
+                                                                            if (bookingErrors.sessionType) {
+                                                                                setBookingErrors({...bookingErrors, sessionType: ''});
+                                                                            }
+                                                                        }}
+                                                                        className="mr-3"
+                                                                    />
+                                                                    <div>
+                                                                        <div className="font-medium text-gray-900">Couples Session</div>
+                                                                        <div className="text-sm text-gray-600">Relationship therapy</div>
+                                                                    </div>
                                                                 </label>
-                                                                <select
-                                                                    value={bookingData.preferredDay}
-                                                                    onChange={(e) => {
-                                                                        setBookingData({...bookingData, preferredDay: e.target.value});
-                                                                        if (bookingErrors.preferredDay) {
-                                                                            setBookingErrors({...bookingErrors, preferredDay: ''});
-                                                                        }
-                                                                    }}
-                                                                    className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-black focus:border-transparent text-gray-900 ${
-                                                                        bookingErrors.preferredDay ? 'border-red-300 bg-red-50' : 'border-gray-300'
-                                                                    }`}
-                                                                >
-                                                                    <option value="">Select a day</option>
-                                                                    <option value="monday">Monday (1 PM - 5 PM)</option>
-                                                                    <option value="tuesday">Tuesday (10 AM - 6 PM)</option>
-                                                                    <option value="wednesday">Wednesday (1 PM - 5 PM)</option>
-                                                                    <option value="thursday">Thursday (10 AM - 6 PM)</option>
-                                                                    <option value="friday">Friday (1 PM - 5 PM)</option>
-                                                                </select>
-                                                                {bookingErrors.preferredDay && (
-                                                                    <p className="mt-2 text-sm text-red-600">{bookingErrors.preferredDay}</p>
-                                                                )}
                                                             </div>
-
-                                                            <div>
-                                                                <label className="block text-sm font-semibold text-gray-700 mb-3">
-                                                                    Preferred time *
-                                                                </label>
-                                                                <select
-                                                                    value={bookingData.preferredTime}
-                                                                    onChange={(e) => {
-                                                                        setBookingData({...bookingData, preferredTime: e.target.value});
-                                                                        if (bookingErrors.preferredTime) {
-                                                                            setBookingErrors({...bookingErrors, preferredTime: ''});
-                                                                        }
-                                                                    }}
-                                                                    className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-black focus:border-transparent text-gray-900 ${
-                                                                        bookingErrors.preferredTime ? 'border-red-300 bg-red-50' : 'border-gray-300'
-                                                                    }`}
-                                                                >
-                                                                    <option value="">Select a time</option>
-                                                                    <option value="morning">Morning (10 AM - 12 PM)</option>
-                                                                    <option value="afternoon">Afternoon (1 PM - 3 PM)</option>
-                                                                    <option value="late-afternoon">Late Afternoon (3 PM - 5 PM)</option>
-                                                                    <option value="evening">Evening (5 PM - 6 PM)</option>
-                                                                </select>
-                                                                {bookingErrors.preferredTime && (
-                                                                    <p className="mt-2 text-sm text-red-600">{bookingErrors.preferredTime}</p>
-                                                                )}
-                                                            </div>
-
-                                                            <div>
-                                                                <label className="block text-sm font-semibold text-gray-700 mb-3">
-                                                                    How urgent is your need for therapy? *
-                                                                </label>
-                                                                <select
-                                                                    value={bookingData.urgency}
-                                                                    onChange={(e) => {
-                                                                        setBookingData({...bookingData, urgency: e.target.value});
-                                                                    }}
-                                                                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:border-transparent text-gray-900"
-                                                                >
-                                                                    <option value="">Select urgency level</option>
-                                                                    <option value="low">Low - I can wait a few weeks</option>
-                                                                    <option value="medium">Medium - Within the next few weeks</option>
-                                                                    <option value="high">High - As soon as possible</option>
-                                                                </select>
-                                                            </div>
-
-                                                            <div className="flex justify-end">
-                                                                <button
-                                                                    type="submit"
-                                                                    className="px-6 py-3 bg-black text-white font-semibold rounded-lg hover:bg-gray-800 transition-all duration-300"
-                                                                >
-                                                                    Next
-                                                                </button>
-                                                            </div>
+                                                            {bookingErrors.sessionType && (
+                                                                <p className="mt-2 text-sm text-red-600">{bookingErrors.sessionType}</p>
+                                                            )}
                                                         </div>
-                                                    )}
 
-                                                    {/* Step 2: Background and Goals */}
-                                                    {bookingStep === 2 && (
-                                                        <div className="space-y-6">
-                                                            <h3 className="text-xl font-semibold text-gray-900 mb-4">Tell Us About Yourself</h3>
-                                                            
-                                                            <div>
-                                                                <label className="block text-sm font-semibold text-gray-700 mb-3">
-                                                                    Have you had therapy before? *
-                                                                </label>
-                                                                <select
-                                                                    value={bookingData.previousTherapy}
-                                                                    onChange={(e) => {
-                                                                        setBookingData({...bookingData, previousTherapy: e.target.value});
-                                                                    }}
-                                                                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:border-transparent text-gray-900"
-                                                                >
-                                                                    <option value="">Select an option</option>
-                                                                    <option value="yes">Yes, I have experience with therapy</option>
-                                                                    <option value="no">No, this would be my first time</option>
-                                                                    <option value="some">Some experience, but it&apos;s been a while</option>
-                                                                </select>
-                                                            </div>
-
-                                                            <div>
-                                                                <label className="block text-sm font-semibold text-gray-700 mb-3">
-                                                                    What are your main goals for therapy? *
-                                                                </label>
-                                                                <textarea
-                                                                    value={bookingData.goals}
-                                                                    onChange={(e) => {
-                                                                        setBookingData({...bookingData, goals: e.target.value});
-                                                                        if (bookingErrors.goals) {
-                                                                            setBookingErrors({...bookingErrors, goals: ''});
-                                                                        }
-                                                                    }}
-                                                                    rows={4}
-                                                                    className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-black focus:border-transparent resize-none text-gray-900 placeholder-gray-500 ${
-                                                                        bookingErrors.goals ? 'border-red-300 bg-red-50' : 'border-gray-300'
-                                                                    }`}
-                                                                    placeholder="Tell us about what you&apos;re hoping to achieve through therapy..."
-                                                                />
-                                                                {bookingErrors.goals && (
-                                                                    <p className="mt-2 text-sm text-red-600">{bookingErrors.goals}</p>
-                                                                )}
-                                                            </div>
-
-                                                            <div className="flex justify-between">
-                                                                <button
-                                                                    type="button"
-                                                                    onClick={prevStep}
-                                                                    className="px-6 py-3 border border-gray-300 text-gray-700 font-semibold rounded-lg hover:bg-gray-50 transition-all duration-300"
-                                                                >
-                                                                    Back
-                                                                </button>
-                                                                <button
-                                                                    type="submit"
-                                                                    className="px-6 py-3 bg-black text-white font-semibold rounded-lg hover:bg-gray-800 transition-all duration-300"
-                                                                >
-                                                                    Next
-                                                                </button>
-                                                            </div>
+                                                        <div>
+                                                            <label className="block text-sm font-semibold text-gray-700 mb-3">
+                                                                Preferred day of the week *
+                                                            </label>
+                                                            <select
+                                                                value={bookingData.preferredDay}
+                                                                onChange={(e) => {
+                                                                    setBookingData({...bookingData, preferredDay: e.target.value});
+                                                                    if (bookingErrors.preferredDay) {
+                                                                        setBookingErrors({...bookingErrors, preferredDay: ''});
+                                                                    }
+                                                                }}
+                                                                className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-black focus:border-transparent text-gray-900 ${
+                                                                    bookingErrors.preferredDay ? 'border-red-300 bg-red-50' : 'border-gray-300'
+                                                                }`}
+                                                            >
+                                                                <option value="">Select a day</option>
+                                                                <option value="monday">Monday (1 PM - 5 PM)</option>
+                                                                <option value="tuesday">Tuesday (10 AM - 6 PM)</option>
+                                                                <option value="wednesday">Wednesday (1 PM - 5 PM)</option>
+                                                                <option value="thursday">Thursday (10 AM - 6 PM)</option>
+                                                                <option value="friday">Friday (1 PM - 5 PM)</option>
+                                                            </select>
+                                                            {bookingErrors.preferredDay && (
+                                                                <p className="mt-2 text-sm text-red-600">{bookingErrors.preferredDay}</p>
+                                                            )}
                                                         </div>
-                                                    )}
 
-                                                    {/* Step 3: Contact Information */}
-                                                    {bookingStep === 3 && (
-                                                        <div className="space-y-6">
-                                                            <h3 className="text-xl font-semibold text-gray-900 mb-4">Contact Information</h3>
-                                                            
-                                                            <div>
-                                                                <label className="block text-sm font-semibold text-gray-700 mb-2">
-                                                                    Full Name *
-                                                                </label>
-                                                                <input
-                                                                    type="text"
-                                                                    value={bookingData.name}
-                                                                    onChange={(e) => {
-                                                                        setBookingData({...bookingData, name: e.target.value});
-                                                                        if (bookingErrors.name) {
-                                                                            setBookingErrors({...bookingErrors, name: ''});
-                                                                        }
-                                                                    }}
-                                                                    className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-black focus:border-transparent text-gray-900 placeholder-gray-500 ${
-                                                                        bookingErrors.name ? 'border-red-300 bg-red-50' : 'border-gray-300'
-                                                                    }`}
-                                                                    placeholder="Enter your full name"
-                                                                />
-                                                                {bookingErrors.name && (
-                                                                    <p className="mt-2 text-sm text-red-600">{bookingErrors.name}</p>
-                                                                )}
-                                                            </div>
-
-                                                            <div>
-                                                                <label className="block text-sm font-semibold text-gray-700 mb-2">
-                                                                    Email Address *
-                                                                </label>
-                                                                <input
-                                                                    type="email"
-                                                                    value={bookingData.email}
-                                                                    onChange={(e) => {
-                                                                        setBookingData({...bookingData, email: e.target.value});
-                                                                        if (bookingErrors.email) {
-                                                                            setBookingErrors({...bookingErrors, email: ''});
-                                                                        }
-                                                                    }}
-                                                                    className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-black focus:border-transparent text-gray-900 placeholder-gray-500 ${
-                                                                        bookingErrors.email ? 'border-red-300 bg-red-50' : 'border-gray-300'
-                                                                    }`}
-                                                                    placeholder="your.email@example.com"
-                                                                />
-                                                                {bookingErrors.email && (
-                                                                    <p className="mt-2 text-sm text-red-600">{bookingErrors.email}</p>
-                                                                )}
-                                                            </div>
-
-                                                            <div>
-                                                                <label className="block text-sm font-semibold text-gray-700 mb-2">
-                                                                    Phone Number *
-                                                                </label>
-                                                                <input
-                                                                    type="tel"
-                                                                    value={bookingData.phone}
-                                                                    onChange={(e) => {
-                                                                        setBookingData({...bookingData, phone: e.target.value});
-                                                                        if (bookingErrors.phone) {
-                                                                            setBookingErrors({...bookingErrors, phone: ''});
-                                                                        }
-                                                                    }}
-                                                                    className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-black focus:border-transparent text-gray-900 placeholder-gray-500 ${
-                                                                        bookingErrors.phone ? 'border-red-300 bg-red-50' : 'border-gray-300'
-                                                                    }`}
-                                                                    placeholder="(555) 123-4567"
-                                                                />
-                                                                {bookingErrors.phone && (
-                                                                    <p className="mt-2 text-sm text-red-600">{bookingErrors.phone}</p>
-                                                                )}
-                                                            </div>
-
-                                                            <div className="flex justify-between">
-                                                                <button
-                                                                    type="button"
-                                                                    onClick={prevStep}
-                                                                    className="px-6 py-3 border border-gray-300 text-gray-700 font-semibold rounded-lg hover:bg-gray-50 transition-all duration-300"
-                                                                >
-                                                                    Back
-                                                                </button>
-                                                                <button
-                                                                    type="submit"
-                                                                    className="px-6 py-3 bg-black text-white font-semibold rounded-lg hover:bg-gray-800 transition-all duration-300"
-                                                                >
-                                                                    Submit Booking
-                                                                </button>
-                                                            </div>
+                                                        <div>
+                                                            <label className="block text-sm font-semibold text-gray-700 mb-3">
+                                                                Preferred time *
+                                                            </label>
+                                                            <select
+                                                                value={bookingData.preferredTime}
+                                                                onChange={(e) => {
+                                                                    setBookingData({...bookingData, preferredTime: e.target.value});
+                                                                    if (bookingErrors.preferredTime) {
+                                                                        setBookingErrors({...bookingErrors, preferredTime: ''});
+                                                                    }
+                                                                }}
+                                                                className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-black focus:border-transparent text-gray-900 ${
+                                                                    bookingErrors.preferredTime ? 'border-red-300 bg-red-50' : 'border-gray-300'
+                                                                }`}
+                                                            >
+                                                                <option value="">Select a time</option>
+                                                                <option value="morning">Morning (10 AM - 12 PM)</option>
+                                                                <option value="afternoon">Afternoon (1 PM - 3 PM)</option>
+                                                                <option value="late-afternoon">Late Afternoon (3 PM - 5 PM)</option>
+                                                                <option value="evening">Evening (5 PM - 6 PM)</option>
+                                                            </select>
+                                                            {bookingErrors.preferredTime && (
+                                                                <p className="mt-2 text-sm text-red-600">{bookingErrors.preferredTime}</p>
+                                                            )}
                                                         </div>
-                                                    )}
-                                                </form>
-                                            </>
-                                        )}
-                                    </div>
+
+                                                        <div>
+                                                            <label className="block text-sm font-semibold text-gray-700 mb-3">
+                                                                How urgent is your need for therapy? *
+                                                            </label>
+                                                            <select
+                                                                value={bookingData.urgency}
+                                                                onChange={(e) => {
+                                                                    setBookingData({...bookingData, urgency: e.target.value});
+                                                                }}
+                                                                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:border-transparent text-gray-900"
+                                                            >
+                                                                <option value="">Select urgency level</option>
+                                                                <option value="low">Low - I can wait a few weeks</option>
+                                                                <option value="medium">Medium - Within the next few weeks</option>
+                                                                <option value="high">High - As soon as possible</option>
+                                                            </select>
+                                                        </div>
+
+                                                        <div className="flex justify-end">
+                                                            <button
+                                                                type="submit"
+                                                                className="px-6 py-3 bg-black text-white font-semibold rounded-lg hover:bg-gray-800 transition-all duration-300"
+                                                            >
+                                                                Next
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                )}
+
+                                                {/* Step 2: Background and Goals */}
+                                                {bookingStep === 2 && (
+                                                    <div className="space-y-6">
+                                                        <h3 className="text-xl font-semibold text-gray-900 mb-4">Tell Us About Yourself</h3>
+                                                        
+                                                        <div>
+                                                            <label className="block text-sm font-semibold text-gray-700 mb-3">
+                                                                Have you had therapy before? *
+                                                            </label>
+                                                            <select
+                                                                value={bookingData.previousTherapy}
+                                                                onChange={(e) => {
+                                                                    setBookingData({...bookingData, previousTherapy: e.target.value});
+                                                                }}
+                                                                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:border-transparent text-gray-900"
+                                                            >
+                                                                <option value="">Select an option</option>
+                                                                <option value="yes">Yes, I have experience with therapy</option>
+                                                                <option value="no">No, this would be my first time</option>
+                                                                <option value="some">Some experience, but it&apos;s been a while</option>
+                                                            </select>
+                                                        </div>
+
+                                                        <div>
+                                                            <label className="block text-sm font-semibold text-gray-700 mb-3">
+                                                                What are your main goals for therapy? *
+                                                            </label>
+                                                            <textarea
+                                                                value={bookingData.goals}
+                                                                onChange={(e) => {
+                                                                    setBookingData({...bookingData, goals: e.target.value});
+                                                                    if (bookingErrors.goals) {
+                                                                        setBookingErrors({...bookingErrors, goals: ''});
+                                                                    }
+                                                                }}
+                                                                rows={4}
+                                                                className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-black focus:border-transparent resize-none text-gray-900 placeholder-gray-500 ${
+                                                                    bookingErrors.goals ? 'border-red-300 bg-red-50' : 'border-gray-300'
+                                                                }`}
+                                                                placeholder="Tell us about what you&apos;re hoping to achieve through therapy..."
+                                                            />
+                                                            {bookingErrors.goals && (
+                                                                <p className="mt-2 text-sm text-red-600">{bookingErrors.goals}</p>
+                                                            )}
+                                                        </div>
+
+                                                        <div className="flex justify-between">
+                                                            <button
+                                                                type="button"
+                                                                onClick={prevStep}
+                                                                className="px-6 py-3 border border-gray-300 text-gray-700 font-semibold rounded-lg hover:bg-gray-50 transition-all duration-300"
+                                                            >
+                                                                Back
+                                                            </button>
+                                                            <button
+                                                                type="submit"
+                                                                className="px-6 py-3 bg-black text-white font-semibold rounded-lg hover:bg-gray-800 transition-all duration-300"
+                                                            >
+                                                                Next
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                )}
+
+                                                {/* Step 3: Contact Information */}
+                                                {bookingStep === 3 && (
+                                                    <div className="space-y-6">
+                                                        <h3 className="text-xl font-semibold text-gray-900 mb-4">Contact Information</h3>
+                                                        
+                                                        <div>
+                                                            <label className="block text-sm font-semibold text-gray-700 mb-2">
+                                                                Full Name *
+                                                            </label>
+                                                            <input
+                                                                type="text"
+                                                                value={bookingData.name}
+                                                                onChange={(e) => {
+                                                                    setBookingData({...bookingData, name: e.target.value});
+                                                                    if (bookingErrors.name) {
+                                                                        setBookingErrors({...bookingErrors, name: ''});
+                                                                    }
+                                                                }}
+                                                                className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-black focus:border-transparent text-gray-900 placeholder-gray-500 ${
+                                                                    bookingErrors.name ? 'border-red-300 bg-red-50' : 'border-gray-300'
+                                                                }`}
+                                                                placeholder="Enter your full name"
+                                                            />
+                                                            {bookingErrors.name && (
+                                                                <p className="mt-2 text-sm text-red-600">{bookingErrors.name}</p>
+                                                            )}
+                                                        </div>
+
+                                                        <div>
+                                                            <label className="block text-sm font-semibold text-gray-700 mb-2">
+                                                                Email Address *
+                                                            </label>
+                                                            <input
+                                                                type="email"
+                                                                value={bookingData.email}
+                                                                onChange={(e) => {
+                                                                    setBookingData({...bookingData, email: e.target.value});
+                                                                    if (bookingErrors.email) {
+                                                                        setBookingErrors({...bookingErrors, email: ''});
+                                                                    }
+                                                                }}
+                                                                className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-black focus:border-transparent text-gray-900 placeholder-gray-500 ${
+                                                                    bookingErrors.email ? 'border-red-300 bg-red-50' : 'border-gray-300'
+                                                                }`}
+                                                                placeholder="your.email@example.com"
+                                                            />
+                                                            {bookingErrors.email && (
+                                                                <p className="mt-2 text-sm text-red-600">{bookingErrors.email}</p>
+                                                            )}
+                                                        </div>
+
+                                                        <div>
+                                                            <label className="block text-sm font-semibold text-gray-700 mb-2">
+                                                                Phone Number *
+                                                            </label>
+                                                            <input
+                                                                type="tel"
+                                                                value={bookingData.phone}
+                                                                onChange={(e) => {
+                                                                    setBookingData({...bookingData, phone: e.target.value});
+                                                                    if (bookingErrors.phone) {
+                                                                        setBookingErrors({...bookingErrors, phone: ''});
+                                                                    }
+                                                                }}
+                                                                className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-black focus:border-transparent text-gray-900 placeholder-gray-500 ${
+                                                                    bookingErrors.phone ? 'border-red-300 bg-red-50' : 'border-gray-300'
+                                                                }`}
+                                                                placeholder="(555) 123-4567"
+                                                            />
+                                                            {bookingErrors.phone && (
+                                                                <p className="mt-2 text-sm text-red-600">{bookingErrors.phone}</p>
+                                                            )}
+                                                        </div>
+
+                                                        <div className="flex justify-between">
+                                                            <button
+                                                                type="button"
+                                                                onClick={prevStep}
+                                                                className="px-6 py-3 border border-gray-300 text-gray-700 font-semibold rounded-lg hover:bg-gray-50 transition-all duration-300"
+                                                            >
+                                                                Back
+                                                            </button>
+                                                            <button
+                                                                type="submit"
+                                                                className="px-6 py-3 bg-black text-white font-semibold rounded-lg hover:bg-gray-800 transition-all duration-300"
+                                                            >
+                                                                Submit Booking
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                )}
+                                            </form>
+                                        </>
+                                    )}
                                 </div>
                             </div>
+                        </div>
                         </>
                     )}
                 </div>
@@ -1904,253 +1904,6 @@ const HeroPage = () => {
                 </div>
               </div>
             </div>
-            {/* Footer Section */}
-            <footer style={{ background: 'linear-gradient(90deg, #f8f7fa 60%, #e7e0f7 100%)', width: '100%', marginTop: 60 }}>
-              {/* Top row: tour package links */}
-              <div style={{ borderBottom: '1px solid #e5e3ee', padding: '14px 0 6px 0', fontSize: 13, color: '#444', textAlign: 'center', fontWeight: 500 }}>
-                <div style={{ maxWidth: 1400, margin: '0 auto', display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: 10 }}>
-                  {[
-                    'Bali Tour Packages', 'JapanTour Packages', 'Vietnam Tour Packages', 'Malaysia Tour Packages', 'Thailand Tour Packages', 'Europe Tour Packages', 'Cultural Tour Packages', 'Luxury Tour packages',
-                    'Dubai Tour Packages', 'Turkey Tour Packages', 'UAE Tour Packages', 'Singapore Tour Packages', 'Australia Tour Packages', 'South Korea Tour Packages', 'Honeymoon Tour packages', 'Adventure Tour packages'
-                  ].map(link => (
-                    <span key={link} style={{ margin: '0 4px', whiteSpace: 'nowrap', cursor: 'pointer' }}>{link}</span>
-                  ))}
-                </div>
-              </div>
-              {/* Middle row: columns */}
-              <div style={{ maxWidth: 1400, margin: '0 auto', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', padding: '40px 0 24px 0', borderBottom: '1px solid #e5e3ee', color: '#222' }}>
-                <div style={{ flex: '1 1 160px', minWidth: 140, marginBottom: 24 }}>
-                  <div style={{ fontWeight: 700, marginBottom: 18 }}>Our offerings</div>
-                  <div style={{ marginBottom: 10 }}>Holidays</div>
-                  <div style={{ marginBottom: 10 }}>Visa</div>
-                  <div style={{ marginBottom: 10 }}>Forex</div>
-                  <div style={{ marginBottom: 10 }}>Hotels</div>
-                  <div>Flights</div>
-                </div>
-                <div style={{ flex: '1 1 160px', minWidth: 140, marginBottom: 24 }}>
-                  <div style={{ fontWeight: 700, marginBottom: 18 }}>Popular destinations</div>
-                  <div style={{ marginBottom: 10 }}>Dubai</div>
-                  <div style={{ marginBottom: 10 }}>Bali</div>
-                  <div style={{ marginBottom: 10 }}>Thailand</div>
-                  <div style={{ marginBottom: 10 }}>Singapore</div>
-                  <div>Malaysia</div>
-                </div>
-                <div style={{ flex: '1 1 160px', minWidth: 140, marginBottom: 24 }}>
-                  <div style={{ fontWeight: 700, marginBottom: 18 }}>Vigovia Specials</div>
-                  <div style={{ marginBottom: 10 }}>Featured Experience</div>
-                  <div style={{ marginBottom: 10 }}>Group Tours</div>
-                  <div style={{ marginBottom: 10 }}>Backpackers Club</div>
-                  <div>Offline Events</div>
-                </div>
-                <div style={{ flex: '1 1 160px', minWidth: 140, marginBottom: 24 }}>
-                  <div style={{ fontWeight: 700, marginBottom: 18 }}>Company</div>
-                  <div style={{ marginBottom: 10 }}>About Us</div>
-                  <div style={{ marginBottom: 10 }}>Careers</div>
-                  <div style={{ marginBottom: 10 }}>Vigovia Blog</div>
-                  <div style={{ marginBottom: 10 }}>Partner Portal</div>
-                  <div>Accreditations</div>
-                </div>
-                <div style={{ flex: '1 1 160px', minWidth: 140, marginBottom: 24 }}>
-                  <div style={{ fontWeight: 700, marginBottom: 18 }}>More</div>
-                  <div style={{ marginBottom: 10 }}>Investor Relations</div>
-                  <div style={{ marginBottom: 10 }}>Forex</div>
-                  <div style={{ marginBottom: 10 }}>FAQs</div>
-                  <div>Domestic Holidays</div>
-                </div>
-                <div style={{ flex: '1 1 260px', minWidth: 220, marginBottom: 24, color: '#222', fontSize: 15 }}>
-                  <div style={{ display: 'flex', alignItems: 'center', marginBottom: 12 }}>
-                    <span style={{ background: '#6c2eb7', color: 'white', borderRadius: 16, fontSize: 13, padding: '2px 12px', marginRight: 10 }}>Need help? Call us</span>
-                    <span style={{ fontWeight: 700, fontSize: 17 }}>+91-98xxx64641</span>
-                  </div>
-                  <div style={{ marginBottom: 10 }}><span style={{ fontWeight: 700 }}>Email</span><br />contact@vigovia.com</div>
-                  <div><span style={{ fontWeight: 700 }}>Address</span><br />HD-109 Cinnabar Hills,Links Business Park,Bangalore North,Bangalore,Karnataka,India-560071</div>
-                </div>
-              </div>
-              {/* New row: logo and payments above purple bg */}
-              <div style={{ width: '100%', background: 'transparent', marginTop: 0, padding: '10px 0 0 0' }}>
-                <div style={{ maxWidth: 1400, margin: '0 auto', display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', fontSize: 12 }}>
-                  {/* Left: Logo and PLAN.PACK.GO */}
-                  <div style={{ display: 'flex', alignItems: 'center', gap: 8, minWidth: 120 }}>
-                    <img src="/Logo.png" alt="Vigovia Logo" style={{ height: 28, marginRight: 4 }} />
-                    <span style={{ fontSize: 10, color: '#6c2eb7', fontWeight: 600, marginLeft: 2 }}>PLAN.PACK.GO</span>
-                  </div>
-                  {/* Center: Payments */}
-                  <div style={{ display: 'flex', alignItems: 'center', gap: 8, flexWrap: 'wrap', justifyContent: 'center', textAlign: 'center', minWidth: 180 }}>
-                    <span style={{ fontWeight: 700, fontSize: 12, color: '#3b267a', marginRight: 4 }}>Payments</span>
-                    <img src="https://w7.pngwing.com/pngs/93/992/png-transparent-razorpay-logo-tech-companies-thumbnail.png" alt="Razorpay" style={{ height: 16, marginRight: 4, background: 'white', borderRadius: 3, padding: 1 }} />
-                    <img src="https://icon2.cleanpng.com/20180409/fue/kisspng-stripe-payment-gateway-e-commerce-payment-system-b-strips-5acb36b2bc4914.4929750615232672507712.jpg" alt="Stripe" style={{ height: 16, background: 'white', borderRadius: 3, padding: 1 }} />
-                  </div>
-                  {/* Right: Empty for spacing */}
-                  <div style={{ minWidth: 120 }}></div>
-                </div>
-              </div>
-              {/* Bottom row: copyright and policy */}
-              <div style={{ width: '100%', background: '#3b267a', marginTop: 0, padding: '10px 0 10px 0' }}>
-                <div style={{ maxWidth: 1400, margin: '0 auto', display: 'flex', alignItems: 'center', justifyContent: 'center', flexWrap: 'wrap', fontSize: 12 }}>
-                  <span style={{ color: '#e0d6f7', fontSize: 11, marginRight: 16 }}>© 2025 Vigovia Travel Technologies (P) Ltd. All rights reserved.</span>
-                  <a href="#" style={{ color: '#e0d6f7', textDecoration: 'none', fontSize: 12, margin: '0 10px' }}>Privacy policy</a>
-                  <a href="#" style={{ color: '#e0d6f7', textDecoration: 'none', fontSize: 12, margin: '0 10px' }}>Legal notice</a>
-                  <a href="#" style={{ color: '#e0d6f7', textDecoration: 'none', fontSize: 12, margin: '0 10px' }}>Accessibility</a>
-                </div>
-              </div>
-            </footer>
-            {showSeasonModal.open && (
-              <div style={{ position: 'fixed', top: 0, left: 0, width: '100vw', height: '100vh', background: 'rgba(0,0,0,0.4)', zIndex: 9999, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                <div style={{ position: 'relative', minWidth: 360, background: 'white', borderRadius: 16, boxShadow: '0 4px 24px rgba(80,40,120,0.12)', padding: 0, maxWidth: 420, height: '80vh', display: 'flex', flexDirection: 'column' }}>
-                  <button onClick={() => setShowSeasonModal({open: false, season: null})} style={{ position: 'absolute', top: 12, right: 16, background: 'none', border: 'none', fontSize: 24, color: '#888', cursor: 'pointer', zIndex: 2 }}>&times;</button>
-                  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '36px 32px 32px 32px', flex: 1, overflowY: 'auto' }}>
-                    <div style={{ width: 80, height: 80, borderRadius: '50%', background: '#541c9c', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 18, overflow: 'hidden' }}>
-                      {showSeasonModal.season === 'Spring' && <img src={springIcon} alt="Spring Icon" style={{ width: 40, height: 40, borderRadius: '50%' }} />}
-                      {showSeasonModal.season === 'Summer' && <img src={summerIcon} alt="Summer Icon" style={{ width: 40, height: 40, borderRadius: '50%' }} />}
-                      {showSeasonModal.season === 'Autumn' && <img src={autumnIcon} alt="Autumn Icon" style={{ width: 40, height: 40, borderRadius: '50%' }} />}
-                      {showSeasonModal.season === 'Winter' && <img src={winterIcon} alt="Winter Icon" style={{ width: 40, height: 40, borderRadius: '50%' }} />}
-                    </div>
-                    <h2 style={{ fontSize: 26, fontWeight: 700, color: '#351c5c', marginBottom: 18, textAlign: 'center' }}>{showSeasonModal.season} Travel Essentials</h2>
-                    <div style={{ textAlign: 'left', width: '100%' }}>
-                      {showSeasonModal.season === 'Spring' && (
-                        <>
-                          <h3 style={{ fontSize: 18, fontWeight: 600, margin: '18px 0 8px 0' }}>Visa Validity Period</h3>
-                          <ul style={{ margin: 0, paddingLeft: 20 }}>
-                            <li>Validity: Most Bali tourist visas are valid for 60 days from the date of entry.</li>
-                            <li><b>Single-entry visa:</b> Valid for one-time entry; you must reapply if you leave.</li>
-                            <li><b>Double-entry visa:</b> Allows two entries within the validity period.</li>
-                            <li><b>Multiple-entry visa:</b> Permits unlimited entries within a set period (e.g., 1 year), with stay duration limits per visit.</li>
-                          </ul>
-                          <h3 style={{ fontSize: 18, fontWeight: 600, margin: '18px 0 8px 0' }}>Duration of Stay</h3>
-                          <ul style={{ margin: 0, paddingLeft: 20 }}>
-                            <li>Tourist visa: Typically allows a 30-day stay, extendable once to a total of 60 days.</li>
-                            <li>Social, business, or temporary residence visas may offer stays of 60–180 days, depending on visa type.</li>
-                            <li>Overstaying can result in fines or bans, so it's crucial to track your departure date.</li>
-                          </ul>
-                          <h3 style={{ fontSize: 18, fontWeight: 600, margin: '18px 0 8px 0' }}>Permitted Activities</h3>
-                          <ul style={{ margin: 0, paddingLeft: 20 }}>
-                            <li>Tourist visa: Strictly for leisure, sightseeing, and cultural visits.</li>
-                            <li>Student or temporary residence visas: Permit study or long-term stay but not paid work.</li>
-                            <li>Work visas: Required for any professional activities or employment.</li>
-                          </ul>
-                          <h3 style={{ fontSize: 18, fontWeight: 600, margin: '18px 0 8px 0' }}>Entry Ban or Restrictions</h3>
-                          <ul style={{ margin: 0, paddingLeft: 20 }}>
-                            <li>Some nationalities may require pre-approved visas or face temporary entry bans or restrictions.</li>
-                            <li>Transit visas may allow brief stays (under 24–48 hours) but do not permit leaving the airport unless specified.</li>
-                          </ul>
-                        </>
-                      )}
-                      {showSeasonModal.season === 'Summer' && (
-                        <>
-                          <h3 style={{ fontSize: 18, fontWeight: 600, margin: '18px 0 8px 0' }}>Visa Validity Period</h3>
-                          <ul style={{ margin: 0, paddingLeft: 20 }}>
-                            <li>Validity: Tourist visas are generally valid for 60 days from the date of entry.</li>
-                            <li><b>Single-entry visa:</b> Valid for one visit; reapplication is needed after exit.</li>
-                            <li><b>Double-entry visa:</b> Grants two entries within the validity window.</li>
-                            <li><b>Multiple-entry visa:</b> Permits repeated entries for up to 12 months, with limited stay per visit.</li>
-                          </ul>
-                          <h3 style={{ fontSize: 18, fontWeight: 600, margin: '18px 0 8px 0' }}>Duration of Stay</h3>
-                          <ul style={{ margin: 0, paddingLeft: 20 }}>
-                            <li>Visitors may stay 30 days, extendable once for a total of 60 days.</li>
-                            <li>Longer visits require specific visa types such as social or business visas.</li>
-                            <li>Overstaying is taken seriously and may result in fines or blacklisting.</li>
-                          </ul>
-                          <h3 style={{ fontSize: 18, fontWeight: 600, margin: '18px 0 8px 0' }}>Permitted Activities</h3>
-                          <ul style={{ margin: 0, paddingLeft: 20 }}>
-                            <li>Tourism, retreats, and recreational activities are allowed under a tourist visa.</li>
-                            <li>Paid employment is not permitted.</li>
-                            <li>For work or volunteering, an appropriate visa is required in advance.</li>
-                          </ul>
-                          <h3 style={{ fontSize: 18, fontWeight: 600, margin: '18px 0 8px 0' }}>Entry Ban or Restrictions</h3>
-                          <ul style={{ margin: 0, paddingLeft: 20 }}>
-                            <li>Certain nationalities may have specific entry rules or limited access.</li>
-                            <li>Transit visas may not allow leaving the airport unless explicitly permitted.</li>
-                          </ul>
-                        </>
-                      )}
-                      {showSeasonModal.season === 'Autumn' && (
-                        <>
-                          <h3 style={{ fontSize: 18, fontWeight: 600, margin: '18px 0 8px 0' }}>Visa Validity Period</h3>
-                          <ul style={{ margin: 0, paddingLeft: 20 }}>
-                            <li>Visas are usually valid for 60 days from the entry date.</li>
-                            <li>Types include single-entry for short visits or multiple-entry for travelers planning return trips.</li>
-                          </ul>
-                          <h3 style={{ fontSize: 18, fontWeight: 600, margin: '18px 0 8px 0' }}>Duration of Stay</h3>
-                          <ul style={{ margin: 0, paddingLeft: 20 }}>
-                            <li>Maximum stay is 30 days per visit for tourist visas, extendable once.</li>
-                            <li>Social or business visas can allow longer durations, often up to 180 days.</li>
-                          </ul>
-                          <h3 style={{ fontSize: 18, fontWeight: 600, margin: '18px 0 8px 0' }}>Permitted Activities</h3>
-                          <ul style={{ margin: 0, paddingLeft: 20 }}>
-                            <li>Allowed: sightseeing, wellness retreats, and non-commercial cultural programs.</li>
-                            <li>Not allowed: working, managing a business, or professional services without a proper work visa.</li>
-                          </ul>
-                          <h3 style={{ fontSize: 18, fontWeight: 600, margin: '18px 0 8px 0' }}>Entry Ban or Restrictions</h3>
-                          <ul style={{ margin: 0, paddingLeft: 20 }}>
-                            <li>Some individuals may face seasonal entry policies or health-related travel conditions.</li>
-                            <li>Transit policies vary; check if you're allowed to leave the airport during layovers.</li>
-                          </ul>
-                        </>
-                      )}
-                      {showSeasonModal.season === 'Winter' && (
-                        <>
-                          <h3 style={{ fontSize: 18, fontWeight: 600, margin: '18px 0 8px 0' }}>Visa Validity Period</h3>
-                          <ul style={{ margin: 0, paddingLeft: 20 }}>
-                            <li>Visa validity remains 60 days for most tourist visas.</li>
-                            <li>Options include single, double, or multiple-entry based on planned travel frequency.</li>
-                          </ul>
-                          <h3 style={{ fontSize: 18, fontWeight: 600, margin: '18px 0 8px 0' }}>Duration of Stay</h3>
-                          <ul style={{ margin: 0, paddingLeft: 20 }}>
-                            <li>Standard stay is 30 days, extendable by another 30 days.</li>
-                            <li>For winter-long stays, temporary residence visas may be more suitable.</li>
-                          </ul>
-                          <h3 style={{ fontSize: 18, fontWeight: 600, margin: '18px 0 8px 0' }}>Permitted Activities</h3>
-                          <ul style={{ margin: 0, paddingLeft: 20 }}>
-                            <li>Tourism, spiritual visits, and cultural exploration are allowed.</li>
-                            <li>Engaging in freelance or remote work on a tourist visa is not permitted.</li>
-                            <li>Students and retirees must apply under their respective visa categories.</li>
-                          </ul>
-                          <h3 style={{ fontSize: 18, fontWeight: 600, margin: '18px 0 8px 0' }}>Entry Ban or Restrictions</h3>
-                          <ul style={{ margin: 0, paddingLeft: 20 }}>
-                            <li>Travel bans or health restrictions may apply depending on the season and nationality.</li>
-                            <li>Be aware of airport transit rules and whether a transit visa grants temporary entry.</li>
-                          </ul>
-                        </>
-                      )}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            )}
-            {showDestinationsModal && (
-              <div style={{ position: 'fixed', top: 0, left: 0, width: '100vw', height: '100vh', background: 'rgba(0,0,0,0.4)', zIndex: 9999, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                <div style={{ position: 'relative', minWidth: 320, background: 'white', borderRadius: 16, boxShadow: '0 4px 24px rgba(80,40,120,0.12)', padding: 0, maxWidth: 380, height: '60vh', display: 'flex', flexDirection: 'column' }}>
-                  <button onClick={() => setShowDestinationsModal(false)} style={{ position: 'absolute', top: 12, right: 16, background: 'none', border: 'none', fontSize: 24, color: '#888', cursor: 'pointer', zIndex: 2 }}>&times;</button>
-                  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '36px 32px 32px 32px', flex: 1, overflowY: 'auto' }}>
-                    <h2 style={{ fontSize: 24, fontWeight: 700, color: '#351c5c', marginBottom: 24, textAlign: 'center' }}>Popular Destinations</h2>
-                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, width: '100%' }}>
-                      {['MALAYSIA', 'SRILANKA', 'PARIS', 'BARCELONA', 'ROME'].map(dest => (
-                        <li key={dest} style={{ margin: '18px 0', textAlign: 'center' }}>
-                          <button
-                            style={{
-                              fontSize: 18,
-                              fontWeight: 600,
-                              color: '#6c2eb7',
-                              background: 'none',
-                              border: 'none',
-                              cursor: 'pointer',
-                              letterSpacing: 1,
-                              padding: '8px 0',
-                              width: '100%',
-                              borderRadius: 8,
-                              transition: 'background 0.2s',
-                            }}
-                            onClick={() => navigate('/' + dest.toLowerCase())}
-                          >
-                            {dest}
-                          </button>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            )}
         </div>
     );
 }
