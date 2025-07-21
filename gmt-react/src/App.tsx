@@ -7,13 +7,15 @@ import SeasonalInfo from './components/SeasonalInfo';
 import Login from './components/Login';
 import Signup from './components/Signup';
 import ComingSoon from './components/ComingSoon';
+import Footer from './components/Footer';
+import ItineraryPDFGenerator from './components/ItineraryPDFGenerator';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <VigoviaHeader />
       <Router>
+        <VigoviaHeader />
         <Routes>
           <Route path="/" element={<HeroPage />} />
           <Route path="/spring/readmore" element={<SpringReadMore />} />
@@ -26,8 +28,10 @@ function App() {
           <Route path="/paris" element={<ComingSoon />} />
           <Route path="/barcelona" element={<ComingSoon />} />
           <Route path="/rome" element={<ComingSoon />} />
+          <Route path="/itinerary-generator" element={<ItineraryPDFGenerator />} />
         </Routes>
       </Router>
+      <Footer />
     </div>
   );
 }
