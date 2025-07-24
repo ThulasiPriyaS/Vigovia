@@ -1,0 +1,205 @@
+.vigovia-header {
+  width: 100%;
+  background: #fff;
+  /* border-bottom: 3px solid #541c9c; */
+  /* box-shadow: 0 2px 8px rgba(50,30,93,0.04); */
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  padding: 0 32px;
+}
+.logo-area {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.logo-text {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #541c9c;
+  letter-spacing: 1px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+.logo-tag {
+  font-size: 0.8rem;
+  color: #680099;
+  margin-top: -4px;
+}
+.vigovia-logo-img {
+  height: 48px;
+  width: auto;
+  display: block;
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.nav-btn {
+  background: none;
+  border: none;
+  color: #321e5d;
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 7px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  position: relative;
+  box-shadow: none !important;
+}
+.nav-btn:hover, .nav-btn:focus {
+  background: #fbf4ff;
+  color: #541c9c;
+  box-shadow: none !important;
+}
+.nav-btn span {
+  color: #bbb;
+  font-size: 0.9em;
+  margin-left: 2px;
+}
+.dropdown {
+  position: relative;
+}
+.dropdown-content {
+  position: absolute;
+  top: 110%;
+  left: 0;
+  min-width: 160px;
+  background: #fff;
+  border: 1px solid #936fe0;
+  border-radius: 8px;
+  /* box-shadow: 0 4px 16px rgba(84,28,156,0.08); */
+  z-index: 10;
+  padding: 8px 0;
+}
+.dropdown-item {
+  padding: 8px 16px;
+  color: #321e5d;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  box-shadow: none !important;
+}
+.dropdown-item:hover {
+  background: #936fe0;
+  color: #fff;
+  box-shadow: none !important;
+}
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.unflash-btn {
+  background: linear-gradient(90deg, #541c9c 0%, #680099 100%);
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 20px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  /* box-shadow: 0 2px 8px rgba(84,28,156,0.08); */
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: none !important;
+}
+.unflash-btn:hover {
+  background: linear-gradient(90deg, #680099 0%, #541c9c 100%);
+  /* box-shadow: 0 4px 16px rgba(104,0,153,0.12); */
+  box-shadow: none !important;
+}
+.login-btn {
+  background: #fbf4ff;
+  color: #541c9c;
+  border: 2px solid #541c9c;
+  border-radius: 20px;
+  padding: 8px 20px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: background 0.2s, color 0.2s;
+  box-shadow: none !important;
+}
+.login-btn:hover {
+  background: #541c9c;
+  color: #fff;
+  box-shadow: none !important;
+}
+.theme-toggle-btn {
+  background: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  margin-right: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+  box-shadow: none;
+  padding: 0;
+}
+.theme-toggle-btn svg {
+  display: block;
+  color: #bbb;
+  width: 20px;
+  height: 20px;
+}
+.theme-toggle-btn:hover {
+  background: #f3f3f3;
+}
+
+body {
+  background: #f8f7fa;
+  color: #222;
+  transition: background 0.3s, color 0.3s;
+}
+
+body.dark-theme {
+  background: #1a1530;
+  color: #f3f3f3;
+}
+
+.vigovia-header {
+  background: #fff;
+  color: #222;
+  transition: background 0.3s, color 0.3s;
+}
+body.dark-theme .vigovia-header {
+  background: #241a3a;
+  color: #f3f3f3;
+}
+
+.nav-bar .nav-btn, .dropdown-content, .header-actions, .logo-area {
+  transition: background 0.3s, color 0.3s;
+}
+body.dark-theme .nav-bar .nav-btn,
+body.dark-theme .dropdown-content,
+body.dark-theme .header-actions,
+body.dark-theme .logo-area {
+  background: #2d2347;
+  color: #f3f3f3;
+}
+
+/* Optional: style dropdowns and modals for dark theme */
+body.dark-theme .dropdown-content {
+  background: #2d2347;
+  color: #f3f3f3;
+  border-color: #3b267a;
+}
+body.dark-theme .dropdown-item:hover {
+  background: #3b267a;
+}
+
+body.dark-theme .modal, body.dark-theme .modal * {
+  background: #241a3a !important;
+  color: #f3f3f3 !important;
+} 
